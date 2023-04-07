@@ -3,14 +3,14 @@
 /**
  * main -  program that prints the number of arguments passed into it.
  *
- * Argument count.
- *
- * Then return(0)
+ * @argc: Argument count.
+ * @argv: Arrays of arguments char
+ * Always return(0)
  **/
 
 int main(int argc, __attribute__((unused)) char *argv[])
 {
-	printf("%d\n", argc);
+	printf("%d\n", argc-1);
 
 	return 0;
 }
