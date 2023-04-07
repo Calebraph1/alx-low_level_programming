@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main -  program that prints the number of arguments passed into it
+ * main - print the number of arguments passed to the program
+ * @argc: number of arguments
+ * @argv: array of arguments
  *
- * @argc: Number of Arguments
- * @argv: Arrays of arguments
- *
- * Return: Always return(0)
+ * Return: Always 0 (Success)
  */
 
 int main(int argc, __attribute__((unused)) char *argv[])
 {
+(void) argv; /*Ignore argv*/
 	printf("%d\n", argc - 1);
 
-return 0;
+	return (0);
 }
